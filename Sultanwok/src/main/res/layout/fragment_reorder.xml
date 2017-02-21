@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+  
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bg">
+   <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:contentInsetEnd="0dp"
+            app:contentInsetStart="0dp" >
+
+            <include layout="@layout/header" />
+        </android.support.v7.widget.Toolbar>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs"
+            style="@style/MyCustomTabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            app:layout_scrollFlags="scroll|enterAlways" />
+    </android.support.design.widget.AppBarLayout>
+    
+   <RelativeLayout
+            android:id="@+id/relative"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/appbarLayout"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/white" >
+
+            <TextView
+                android:id="@+id/order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/checkout_image"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:text="Your Order"
+                android:textSize="@dimen/text_large"
+                android:textStyle="bold" />
+
+           
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/relative"
+            android:background="@android:color/darker_gray" />
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@+id/view"
+            android:background="@android:color/white"
+            android:divider="@android:color/white" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/list"
+            android:background="@android:color/darker_gray" />
+
+        <RelativeLayout
+            android:id="@+id/subtotal_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view1"
+            android:background="@android:color/white" >
+
+            <TextView
+                android:id="@+id/subtotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Sub Total"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/totalAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:text=""
+                android:textSize="@dimen/text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/subtotal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="TAX%"
+                android:textColor="@color/app_text_color"
+                android:textSize="@dimen/text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vat_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/subtotal"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:text=""
+                android:textColor="@color/app_text_color"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_below="@+id/vat"
+                android:layout_marginTop="3dp"
+                android:background="@color/grey"
+                                android:visibility="gone"
+                
+                 />
+
+            <TextView
+                android:id="@+id/delivery_charges"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/view3"
+                android:layout_marginLeft="10dp"
+                android:text="Delivery Charges"
+                android:visibility="gone"
+                android:textSize="@dimen/text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/delivery_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/view3"
+                android:layout_marginRight="10dp"
+                android:text="Free"
+                android:visibility="gone"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/view4"
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_below="@+id/delivery_amount"
+                android:layout_marginTop="3dp"
+                android:background="@color/grey" />
+<RelativeLayout 
+    android:id="@+id/total_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#f5f5f5"
+    android:layout_below="@+id/view4">
+            <TextView
+                android:id="@+id/total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:text="@string/total"
+                android:textColor="@color/black"
+                 android:layout_marginTop="15dp"
+                android:layout_centerVertical="true"
+                android:textSize="@dimen/text_large"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/total_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/total"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:text=""
+                               android:layout_centerVertical="true"
+               
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_large"
+                android:textStyle="bold" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/putIns"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/footer"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/signup_edit_background"
+            android:hint="@string/put_our_instruction"
+            android:imeOptions="flagNoExtractUi"
+            android:maxLines="1"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/hint_color"
+            android:textSize="@dimen/text_size"
+            android:visibility="invisible" />
+
+        <RelativeLayout
+            android:id="@+id/footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/app_theme_color" >
+
+            <TextView
+                android:id="@+id/checkOut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:padding="13.0dip"
+                android:text="REORDER"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size" />
+
+            <ImageView
+                android:id="@+id/arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/right" />
+        </RelativeLayout>
+</LinearLayout>

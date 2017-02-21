@@ -1,0 +1,7 @@
+#Tue Feb 21 10:01:18 IST 2017
+base.0=C\:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+base.1=C\:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+file.0=C\:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes2.dex

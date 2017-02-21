@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+ <RadioButton
+        android:id="@+id/select_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+       android:layout_alignTop="@+id/street" />
+    <TextView
+        android:id="@+id/street"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      
+        android:layout_marginTop="6dp"
+        android:padding="4dp"
+        android:singleLine="true"
+        android:text="address 1"
+        android:layout_toRightOf="@+id/select_address"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_large" />
+
+    <TextView
+        android:id="@+id/city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="6dp"
+        android:layout_toRightOf="@+id/street"
+        android:padding="4dp"
+        android:singleLine="true"
+        android:text="city"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_large" />
+
+    <TextView
+        android:id="@+id/state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_toRightOf="@+id/city"
+        android:padding="4dp"
+        android:singleLine="true"
+        android:text="state"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_large" />
+
+    <TextView
+        android:id="@+id/pin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="6dp"
+        android:layout_toRightOf="@+id/state"
+        android:padding="4dp"
+        android:singleLine="true"
+        android:text="pincode"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_large" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/pin"
+        android:layout_marginTop="3dp"
+        android:background="@android:color/darker_gray" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="7dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/pin"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/pin"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/arrow_left" />
+
+   
+
+</RelativeLayout>

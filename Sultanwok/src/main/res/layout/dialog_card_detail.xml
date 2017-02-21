@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_background"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+
+    <RelativeLayout
+        android:id="@+id/aa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="ADD CREDIT CARD"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_large"
+            android:textStyle="bold" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/cardType_text_input_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="15.0dp"
+            app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout" >
+
+            <Spinner
+                android:id="@+id/cardType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/textView1"
+                android:background="@drawable/signup_edit_background"
+                android:maxLines="1"
+                android:prompt="@string/cardType" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/card_number_text_input_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/cardType_text_input_layout"
+            android:layout_alignRight="@+id/cardType_text_input_layout"
+            android:layout_below="@+id/cardType_text_input_layout"
+            android:layout_marginTop="15.0dp"
+            app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout" >
+
+            <EditText
+                android:id="@+id/card_number"
+                style="@style/text_16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/card_number"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/hint_color"
+                android:textSize="@dimen/text_large" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/cardExp_text_input_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card_number_text_input_layout"
+            android:layout_marginTop="15.0dp"
+            app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout" >
+
+            <EditText
+                android:id="@+id/month_year"
+                style="@style/text_16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/card_exp"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColorHighlight="@color/hint_color"
+                android:textSize="@dimen/text_large" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/cvv_text_input_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cardExp_text_input_layout"
+            android:layout_marginTop="15.0dp"
+            app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout" >
+
+            <EditText
+                android:id="@+id/cvv"
+                style="@style/text_16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/card_cvvnumber"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/hint_color"
+                android:textSize="@dimen/text_large" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cvv_text_input_layout"
+            android:layout_marginTop="15.0dp"
+            android:background="@color/app_theme_color"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="10dp"
+            android:text="ADD CARD" />
+        <Space
+     android:layout_below="@+id/add"
+              android:layout_width="match_parent"
+              android:layout_height="10dp"
+               />
+    </RelativeLayout>
+
+</RelativeLayout>

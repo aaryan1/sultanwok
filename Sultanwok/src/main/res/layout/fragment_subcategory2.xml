@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    >
+  
+   
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" >
+  
+               
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                 app:contentInsetEnd="0dp"
+                app:contentInsetStart="0dp">
+
+            <include layout="@layout/header" />
+        </android.support.v7.widget.Toolbar>
+ <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        app:layout_collapseMode="parallax"
+        android:src="@drawable/bg" />
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs"
+            style="@style/MyCustomTabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabIndicatorColor="@color/app_theme_color"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            app:layout_scrollFlags="scroll|enterAlways" >
+           
+        </android.support.design.widget.TabLayout>
+        <android.support.design.widget.TabLayout
+            android:id="@+id/subtabs"
+            style="@style/MyCustomTabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabIndicatorColor="@color/app_theme_color"
+            android:background="@color/app_theme_color"
+            android:alpha="10"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:visibility="gone"
+            app:layout_scrollFlags="scroll|enterAlways" >
+
+        </android.support.design.widget.TabLayout>
+        
+    </android.support.design.widget.AppBarLayout>
+     <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+         android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         
+        android:layout_below="@+id/appbarLayout"
+         app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+     </android.support.v4.view.ViewPager>
+        <android.support.v4.view.ViewPager
+            android:id="@+id/subviewPager"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/appbarLayout"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        </android.support.v4.view.ViewPager>
+</RelativeLayout>

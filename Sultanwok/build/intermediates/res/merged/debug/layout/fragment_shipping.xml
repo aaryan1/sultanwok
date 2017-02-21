@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_background"
+    android:orientation="vertical"
+    android:padding="0.0dip" >
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"   
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8.0dp"
+                android:gravity="center"
+                android:padding="0.0dip"
+                android:text="@string/shipping_address"
+                android:textColor="@color/red"
+                android:textSize="18sp" />
+
+            <android.support.v4.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="8.0dp"
+                android:layout_marginTop="8.0dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/sameShippingLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/sameShipping"
+                            style="@style/text_16"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="0.0dp"
+                            android:text="@string/same_shipping"
+                            android:textColor="@color/black" />
+
+                        <CheckBox
+                            android:id="@+id/sameCheckbox"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="4.0dip"
+                            android:button="@drawable/checkbox_bg"
+                            android:padding="0.0dp" />
+                    </LinearLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/street_text_input_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10.0dp"
+                        android:padding="0dp"
+                        app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout" >
+
+                        <EditText
+                            android:id="@+id/street"
+                            style="@style/text_16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/signup_edit_background"
+                            android:focusableInTouchMode="true"
+                            android:hint="@string/street"
+                            android:imeOptions="flagNoExtractUi"
+                            android:maxLines="1"
+                            android:textColor="@color/black"
+                            android:textColorHighlight="@color/hint_color" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <Spinner
+                        android:id="@+id/states"
+                        style="@style/text_16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8.0dp"
+                        android:background="@drawable/signup_edit_background"
+                        android:prompt="@string/states"
+                        android:textColor="@color/black"
+                        android:textColorHighlight="@color/hint_color"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/states1"
+                        style="@style/text_16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8.0dp"
+                        android:background="@drawable/signup_edit_background"
+                        android:hint="@string/states"
+                        android:maxLines="1"
+                        android:textColor="@color/black"
+                        android:textColorHighlight="@color/hint_color"
+                        android:visibility="gone" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/states_text_input_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8.0dp"
+                        android:padding="0dp"
+                        app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout" >
+
+                        <AutoCompleteTextView
+                            android:id="@+id/statesAuto"
+                            style="@style/text_16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/signup_edit_background"
+                            android:focusableInTouchMode="true"
+                            android:hint="@string/states"
+                            android:imeOptions="actionDone|flagNoExtractUi"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColor="@color/black"
+                            android:textColorHighlight="@color/hint_color" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/city_text_input_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8.0dp"
+                        android:padding="0dp"
+                        app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout" >
+
+                        <AutoCompleteTextView
+                            android:id="@+id/city"
+                            style="@style/text_16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/signup_edit_background"
+                            android:focusableInTouchMode="true"
+                            android:hint="@string/city"
+                            android:imeOptions="actionDone|flagNoExtractUi"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColor="@color/black"
+                            android:textColorHighlight="@color/hint_color" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <Spinner
+                        android:id="@+id/locality"
+                        style="@style/text_16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8.0dp"
+                        android:background="@drawable/signup_edit_background"
+                        android:prompt="@string/locality"
+                        android:textColor="@color/black"
+                        android:textColorHighlight="@color/hint_color"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/locality1"
+                        style="@style/text_16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8.0dp"
+                        android:background="@drawable/signup_edit_background"
+                        android:focusableInTouchMode="true"
+                        android:hint="@string/locality"
+                        android:maxLines="1"
+                        android:textColor="@color/black"
+                        android:textColorHighlight="@color/hint_color"
+                        android:visibility="gone" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/phone_text_input_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8.0dp"
+                        android:padding="0dp"
+                        android:visibility="gone"
+                        app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout" >
+
+                        <EditText
+                            android:id="@+id/phone"
+                            style="@style/text_16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/signup_edit_background"
+                            android:digits="+0123456789"
+                            android:focusableInTouchMode="true"
+                            android:hint="@string/phone"
+                            android:imeOptions="flagNoExtractUi"
+                            android:inputType="text|phone"
+                            android:maxLines="1"
+                            android:textColor="@color/black"
+                            android:textColorHighlight="@color/hint_color"
+                            android:visibility="gone" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/zipcode_text_input_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8.0dp"
+                        android:padding="0dp"
+                        app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout" >
+
+                        <EditText
+                            android:id="@+id/zipCode"
+                            style="@style/text_16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/signup_edit_background"
+                            android:digits="0123456789"
+                            android:focusableInTouchMode="true"
+                            android:hint="@string/zip_code"
+                            android:imeOptions="flagNoExtractUi"
+                            android:inputType="textPostalAddress|number"
+                            android:maxLines="1"
+                            android:textColor="@color/black"
+                            android:textColorHighlight="@color/hint_color" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4.0dp"
+                        android:layout_marginTop="15.0dp"
+                        android:orientation="horizontal"
+                        android:padding="0.0dip" >
+
+                        <Button
+                            android:id="@+id/dismiss"
+                            style="@style/text_16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="15.0dip"
+                            android:layout_weight="1"
+                            android:background="#099849"
+                            android:shadowColor="@color/white"
+                            android:shadowDx=".4"
+                            android:shadowRadius=".3"
+                            android:text="@string/dismiss"
+                            android:textColor="@color/white" />
+
+                        <Button
+                            android:id="@+id/save"
+                            style="@style/text_16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#099849"
+                            android:shadowColor="@color/white"
+                            android:shadowDx=".4"
+                            android:shadowRadius=".3"
+                            android:text="@string/save"
+                            android:textColor="@color/white" />
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v4.widget.NestedScrollView>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

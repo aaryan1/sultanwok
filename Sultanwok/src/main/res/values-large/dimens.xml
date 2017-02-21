@@ -1,0 +1,11 @@
+<resources>
+
+    <dimen name="carousel">277dp</dimen>
+    <dimen name="category_margin_top">300dp</dimen>
+    <dimen name="category_width_grid">210dp</dimen>
+    <dimen name="category_height_grid">180dp</dimen>
+    <dimen name="text_large">20dp</dimen>
+       <dimen name="button_text">18dp</dimen>
+        <dimen name="header_title">22sp</dimen>
+     <dimen name="text_size">16dp</dimen>  
+</resources>

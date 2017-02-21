@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg" >
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:contentInsetEnd="0dp"
+            app:contentInsetStart="0dp" >
+
+            <include layout="@layout/header" />
+        </android.support.v7.widget.Toolbar>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs"
+            style="@style/MyCustomTabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_scrollFlags="scroll|enterAlways"
+            android:visibility="gone" />
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:alpha="0.9"
+        android:layout_below="@+id/appbarLayout"
+        android:background="@android:color/black"
+        android:clipChildren="false"
+        android:gravity="center" >
+
+    
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.MapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_above="@+id/delviery_rel"
+            android:layout_margin="20dp"/>
+
+
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/delviery_rel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/map"
+            android:layout_alignRight="@+id/map"
+            android:layout_above="@+id/now_relative"
+            android:layout_marginTop="3dp"
+
+            android:background="@android:color/white"
+            card_view:cardCornerRadius="4dp" >
+
+            <com.app2mobile.Sultanwok.SagmentRadioGroup1
+                android:id="@+id/segment_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:checkedButton="@+id/button_one"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="2" >
+
+                <RadioButton
+                    android:id="@+id/button_one"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:minHeight="33dip"
+                    android:text="Delivery"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#099849"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/button_two"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:minHeight="33dip"
+                    android:text="Pick Up"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#099849"
+                    android:textStyle="bold" />
+            </com.app2mobile.Sultanwok.SagmentRadioGroup1>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/now_relative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/map"
+            android:layout_alignRight="@+id/map"
+            android:layout_above="@+id/choose"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/white"
+            card_view:cardCornerRadius="4dp" >
+
+            <com.app2mobile.Sultanwok.SagmentRadioGroup1
+                android:id="@+id/segment"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:checkedButton="@+id/now"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="2" >
+
+                <RadioButton
+                    android:id="@+id/now"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:minHeight="33dip"
+                    android:minWidth="35dip"
+                    android:text="Now"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/later"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:minHeight="33dip"
+                    android:minWidth="35dip"
+                    android:text="Later"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+            </com.app2mobile.Sultanwok.SagmentRadioGroup1>
+        </android.support.v7.widget.CardView>
+
+        <RelativeLayout
+            android:id="@+id/footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/app_theme_color" >
+
+            <TextView
+                android:id="@+id/checkOut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:padding="9.0dip"
+                android:text="Done"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_large" />
+        </RelativeLayout>
+
+        <include layout="@layout/right_menu" />
+
+        <TextView
+            android:id="@+id/choose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="dsaasdas"
+            
+            android:layout_above="@+id/footer"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_large" />
+    </RelativeLayout>
+
+</RelativeLayout>

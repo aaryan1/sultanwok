@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/navigation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentRight="true"
+    android:orientation="horizontal"
+    android:background="@color/transparent" 
+    android:visibility="gone">
+
+  <View
+      android:id="@+id/transparentView"
+      android:layout_width="0dip"
+      android:layout_height="match_parent"
+      android:layout_weight="1"
+      android:focusableInTouchMode="true" 
+      android:clickable="true"
+      android:visibility="gone"/>
+  <ListView
+      android:paddingTop="8.0dip"
+        android:id="@+id/navigationList"
+        android:layout_width="@dimen/drawer_width"
+        android:layout_height="match_parent"
+        android:background="#ee3f3f3f"
+        android:divider="@null" 
+        android:visibility="gone"/>
+
+</LinearLayout>

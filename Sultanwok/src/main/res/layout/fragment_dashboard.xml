@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" 
+     android:fillViewport="true" >
+
+   
+ 
+  
+    
+
+          <android.support.design.widget.AppBarLayout
+            android:id="@+id/appbarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true" 
+           
+           >
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:contentInsetEnd="0dp"
+                app:contentInsetStart="0dp" >
+
+                <include layout="@layout/header" />
+            </android.support.v7.widget.Toolbar>
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabs"
+                style="@style/MyCustomTabLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_scrollFlags="scroll|enterAlways"
+                android:visibility="gone" />
+        </android.support.design.widget.AppBarLayout>
+
+
+
+    <GridView
+        android:id="@+id/gridView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+     android:layout_below="@+id/appbarLayout"
+       
+        android:gravity="center"
+        android:horizontalSpacing="@dimen/margin_8"
+      
+        android:scrollbars="none"
+        android:stretchMode="columnWidth"
+         />
+
+    <RelativeLayout
+        android:id="@+id/offer_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+       android:background="@color/app_theme_color"
+        >
+
+        <TextView
+            android:id="@+id/offer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:text="TODAY'S OFFER" />
+         <TextView
+            android:id="@+id/offer_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/offer"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="5dp"
+            android:textSize="@dimen/text_size"
+            android:textColor="@android:color/white"
+            android:text="" />
+
+         <ImageView
+             android:id="@+id/imageView1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+             android:layout_centerVertical="true"
+             android:layout_marginRight="10dp"
+             android:src="@drawable/discount" />
+         
+    </RelativeLayout>
+
+</RelativeLayout>

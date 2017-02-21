@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/LinearLayout1"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:background="#0D000000"
+         android:gravity="center"
+         android:orientation="vertical"
+         android:visibility="gone" >
+
+    <ImageView
+    android:id="@+id/imageView111"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/loading1"
+    android:visibility="gone" />
+
+    <TextView
+    android:id="@+id/textView111"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:text="Searching..."
+    android:textColor="#ffffff"
+    android:textSize="12sp"
+    android:visibility="gone" />
+
+</LinearLayout>

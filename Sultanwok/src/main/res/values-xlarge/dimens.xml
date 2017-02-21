@@ -1,0 +1,8 @@
+<resources>
+
+    <dimen name="carousel">370dp</dimen>
+    <dimen name="category_margin_top">400dp</dimen>
+    <dimen name="category_width_grid">320dp</dimen>
+    <dimen name="category_height_grid">240dp</dimen>
+
+</resources>

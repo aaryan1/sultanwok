@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_text">12dp</dimen>
+    <dimen name="carousel">180dp</dimen>
+    <dimen name="category_height_grid">120dp</dimen>
+    <dimen name="category_margin_top">200dp</dimen>
+    <dimen name="category_width_grid">145dp</dimen>
+    <dimen name="header_title">20sp</dimen>
+    <dimen name="text_large">18dp</dimen>
+    <dimen name="text_size">14dp</dimen>
+</resources>

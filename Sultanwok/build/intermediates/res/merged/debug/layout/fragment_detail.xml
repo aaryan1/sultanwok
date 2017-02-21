@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/coordinator"
+    android:background="@android:color/darker_gray"
+    android:fillViewport="true"
+    android:isScrollContainer="true"
+    android:fitsSystemWindows="false" >
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        
+        >
+  <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:contentInsetEnd="0dp"
+            app:contentInsetStart="0dp" >
+
+            <include layout="@layout/header" />
+        </android.support.v7.widget.Toolbar>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs"
+            style="@style/MyCustomTabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_scrollFlags="scroll|enterAlways"
+            android:visibility="gone" />
+    </android.support.design.widget.AppBarLayout>
+   <RelativeLayout
+       android:id="@+id/re"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_marginTop="20dp"
+                   android:layout_below="@+id/appbarLayout"
+       
+       android:background="@android:color/white" >
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/signup_edit_background"
+            android:ellipsize="start"
+            android:gravity="center_vertical"
+            android:hint="Name"
+            android:textSize="@dimen/text_size" />
+
+        
+
+        <EditText
+            android:id="@+id/phoneno"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/name"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/signup_edit_background"
+            android:ellipsize="start"
+            android:gravity="center_vertical"
+            android:hint="Mobile no"
+            
+            android:paddingTop="7dp"
+            android:textSize="@dimen/text_size" />
+      
+<EditText
+            android:id="@+id/email"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/phoneno"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/signup_edit_background"
+            android:ellipsize="start"
+            android:gravity="center_vertical"
+            android:hint="Email"
+            android:paddingTop="7dp"
+            
+            android:textSize="@dimen/text_size" >
+        </EditText>
+        <Space 
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+           android:layout_below="@+id/email"
+            />
+      </RelativeLayout>
+<LinearLayout 
+    android:id="@+id/delivery_address_layout"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_below="@+id/re"
+    android:layout_marginTop="20dp"
+    android:background="@android:color/white"
+    >
+
+    <TextView
+        android:id="@+id/delivery_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Delivery ADDRESS" 
+        android:textStyle="bold"
+        android:textColor="@color/app_theme_color"/>
+
+        
+     
+        
+
+        <EditText
+            android:id="@+id/shipping_street"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/ship"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/signup_edit_background"
+            android:ellipsize="start"
+            
+            android:gravity="center_vertical"
+            android:hint="Street"
+            android:textSize="@dimen/text_size" />
+
+<AutoCompleteTextView
+       android:id="@+id/shipping_state"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:layout_below="@+id/shipping_street"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+       android:layout_marginTop="10dp"
+       android:background="@drawable/signup_edit_background"
+       android:ellipsize="start"
+       android:gravity="center_vertical"
+       android:hint="State"
+       android:textSize="@dimen/text_size" />
+ <AutoCompleteTextView
+            android:id="@+id/shipping_city"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/shipping_state"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/signup_edit_background"
+            android:ellipsize="start"
+            
+            android:gravity="center_vertical"
+            android:hint="City"
+            android:textSize="@dimen/text_size" />
+   <EditText
+       android:id="@+id/shipping_zip"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:layout_below="@+id/shipping_city"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+       android:layout_marginTop="10dp"
+       android:background="@drawable/signup_edit_background"
+       android:ellipsize="start"
+      
+       android:gravity="center_vertical"
+       android:hint="Zipcode"
+       android:textSize="@dimen/text_size" />
+   <Space 
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            />
+</LinearLayout>
+        <RelativeLayout
+            android:id="@+id/footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/app_theme_color"
+     		android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+            
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size" >
+
+            <TextView
+                android:id="@+id/add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:text="NEXT STEP"
+                 android:padding="20.0dip"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size" />
+
+
+            <ImageView
+                android:id="@+id/right_sign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/right" />
+        </RelativeLayout>
+
+        
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

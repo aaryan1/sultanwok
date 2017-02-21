@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/dialog_background"
+    android:padding="0.0dip" >
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="8.0dip"
+        android:gravity="center"
+        android:padding="0.0dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Confirm Order"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="4.0dip"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginRight="8.0dip"
+        android:layout_marginTop="8.0dip"
+        android:gravity="center"
+        android:padding="0.0dip" >
+
+        <TextView
+            style="@style/text_16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8.0dip"
+            android:text="Sub Total :"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/subTotal"
+            style="@style/text_16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/black" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginRight="8.0dip"
+        android:gravity="center"
+        android:padding="0.0dip" >
+
+        <TextView
+            style="@style/text_16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8.0dip"
+            android:text="Delivery Charges :"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/deliveryCharges"
+            style="@style/text_16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/black" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8.0dip"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginRight="8.0dip"
+        android:layout_marginTop="4.0dip"
+        android:gravity="center"
+        android:padding="0.0dip" >
+
+        <TextView
+            style="@style/text_16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8.0dip"
+            android:text="Total :"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/total"
+            style="@style/text_16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/black" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8.0dip"
+        android:padding="0.0dip" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.0dip"
+            android:layout_weight="1"
+            android:background="@color/grey" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="0.0dip" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/cancel"
+                style="@style/text_16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/dialog_alert_message_bottom"
+                android:padding="10.0dip"
+                android:shadowColor="@color/black"
+                android:shadowDx=".4"
+                android:shadowRadius=".3"
+                android:text="Cancel"
+                android:textColor="#3BB9FF" />
+
+            <View
+                android:id="@+id/line"
+                android:layout_width="2.0dip"
+                android:layout_height="wrap_content"
+                android:background="@color/grey" />
+
+            <Button
+                android:id="@+id/confirm"
+                style="@style/text_16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/dialog_alert_message_bottom"
+                android:padding="10.0dip"
+                android:shadowColor="@color/black"
+                android:shadowDx=".4"
+                android:shadowRadius=".3"
+                android:text="Confirm"
+                android:textColor="#3BB9FF" />
+        </LinearLayout>
+    </TableRow>
+
+</TableLayout>

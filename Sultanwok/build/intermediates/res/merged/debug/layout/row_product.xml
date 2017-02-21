@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Product"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/product"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+         android:layout_marginLeft="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/price_tag"
+        android:layout_marginRight="5dp"
+        android:background="@android:color/white"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/productName"
+            android:layout_width="292dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+           
+            android:ellipsize="end"
+            android:gravity="left"
+            android:singleLine="true"
+            android:text="Name"
+            android:textColor="@color/category_name"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+   
+
+    <LinearLayout
+        android:id="@+id/price_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/product"
+        android:layout_alignBottom="@+id/product"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/marginTop"
+        android:background="@android:color/white"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="12"
+            android:layout_marginRight="10dp"
+            android:textColor="#666666"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/productDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/product"
+        android:layout_below="@+id/product"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/price_tag"
+        android:background="@android:color/white"
+        android:ellipsize="end"
+        android:lineSpacingExtra="5dp"
+        android:text="Desc"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/text_size" />
+
+ <View
+        android:id="@+id/view"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/productDesc"
+        android:background="@android:color/darker_gray" />
+</RelativeLayout>

@@ -1,0 +1,558 @@
+[
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_pickupndelivery.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\dialog_pickupndelivery.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\reorder_cart.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\reorder_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\update_address.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\update_address.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\single_card_view.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\single_card_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\fav_name.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\fav_name.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\single_address.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\single_address.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\facebook_webview.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\facebook_webview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\user_profile_tab.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\user_profile_tab.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_confirm_order.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\dialog_confirm_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\tab_icon.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\tab_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\residemenu_custom.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\residemenu_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\location_manual.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\location_manual.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_signup.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\fragment_signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_location.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\fragment_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\pickup_address.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\pickup_address.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\row_product.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\row_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_new_login.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\fragment_new_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_shipping.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\fragment_shipping.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\location_manual_custum_list.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\location_manual_custum_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_payment_detail_part1.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\fragment_payment_detail_part1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_product_detail2.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\fragment_product_detail2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_delivery.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\fragment_delivery.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\billing_address_listview.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\billing_address_listview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\gridview_item.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\gridview_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\residemenu_custom_right_scrollview.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\residemenu_custom_right_scrollview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\right_menu.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\right_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_coupon_code.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\dialog_coupon_code.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\custom_progress_layout.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\custom_progress_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_subcategory2.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\fragment_subcategory2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\row_product_attribute.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\row_product_attribute.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login_signup.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\activity_login_signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\favirote_orders.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\favirote_orders.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\listview_header.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\listview_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_favourites.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\fragment_favourites.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\activity_notification.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\activity_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_product_detail.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\fragment_product_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\tab_widget.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\tab_widget.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_popu_delivery_agreement.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\dialog_popu_delivery_agreement.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\header_dashboard.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\header_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\products_fragments.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\products_fragments.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_card_detail.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\dialog_card_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_order_history.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\fragment_order_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\row_attribute_category.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\row_attribute_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\month_year_picker_view.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\month_year_picker_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_forgot_password.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\dialog_forgot_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\dropdown_listitem.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\dropdown_listitem.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\user_address_tab.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\user_address_tab.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_payement_information.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\fragment_payement_information.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_payment.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\fragment_payment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\row_navigation.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\row_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\dropdown_item.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\row_order_history.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\row_order_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_reorder.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\fragment_reorder.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\residemenu_item.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\residemenu_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_list_item.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.0.0\\res\\layout\\mr_media_route_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\residemenu_custom_left_scrollview.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\residemenu_custom_left_scrollview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_checkout.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\fragment_checkout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\cart_listview_footer.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\cart_listview_footer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\custom_loading.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\custom_loading.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\add_creditcard.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\add_creditcard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_product_attribute.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\fragment_product_attribute.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_change_password.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\dialog_change_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\header.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\item_composer_header.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\item_composer_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_alert_message_two_button.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\dialog_alert_message_two_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\row_category.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\row_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\row_order_history_detail.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\row_order_history_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_order_successfully.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\dialog_order_successfully.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\favirote_product.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\favirote_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_controller_material_dialog_b.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.0.0\\res\\layout\\mr_media_route_controller_material_dialog_b.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\user_profile_savedcard.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\user_profile_savedcard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_custom_states.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\dialog_custom_states.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home2.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\activity_home2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_order_details.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\dialog_order_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\item.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_verify_user.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\dialog_verify_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\row_favourites.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\row_favourites.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_restaurant_close.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\dialog_restaurant_close.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\row_cart.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\row_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_detail.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\fragment_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_dashboard.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_product.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\fragment_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\new_sign_up.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\new_sign_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\exception.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\exception.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_chooser_dialog.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.0.0\\res\\layout\\mr_media_route_chooser_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\saved_card_view.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\saved_card_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_alert_message.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\dialog_alert_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_multichoice_material.xml"
+    }
+]

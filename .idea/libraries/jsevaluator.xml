@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jsevaluator">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Sultanwok/libs/jsevaluator.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/dialog_background"
+    android:orientation="vertical"
+    android:padding="0.0dip" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="0.0dip" >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8.0dip"
+            android:visibility="gone" >
+
+            <TextView
+                style="@style/text_16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="4.0dip"
+                android:text="Zip code:"
+                android:textColor="@color/app_theme_color" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/zipcode_text_input_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="0dp"
+                app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout" >
+
+                <EditText
+                    android:id="@+id/pincode"
+                    style="@style/text_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/signup_edit_background"
+                    android:digits="0123456789"
+                    android:hint="Check availability in your area."
+                    android:imeOptions="flagNoExtractUi"
+                    android:inputType="textPostalAddress|numberDecimal"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textColorHighlight="@color/hint_color" />
+            </android.support.design.widget.TextInputLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8.0dip" >
+
+            <TextView
+                style="@style/text_16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="4.0dip"
+                android:text="Order Type:"
+                android:textColor="@color/app_theme_color" />
+
+            <Spinner
+                android:id="@+id/orderType"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/signup_edit_background"
+                android:prompt="@string/orderTypeSpin" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2.0dip"
+                android:layout_weight="1"
+                android:background="@drawable/list_divider" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8.0dip" >
+
+            <TextView
+                style="@style/text_16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="4.0dip"
+                android:text="Coupon Code:"
+                android:textColor="@color/app_theme_color" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="0.0dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="0.0dp" >
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/coupon_text_input_layout"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="0dp"
+                        app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout" >
+
+                        <EditText
+                            android:id="@+id/couponCode"
+                            style="@style/text_16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/signup_edit_background"
+                            android:hint="Enter coupon code if you have any."
+                            android:imeOptions="flagNoExtractUi"
+                            android:singleLine="true"
+                            android:textColor="@color/black"
+                            android:textColorHighlight="@color/hint_color" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <ImageView
+                        android:id="@+id/checkCoupon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="0dp"
+                        android:padding="0dp"
+                        android:src="@drawable/ic_action_send_now" />
+
+                    <ProgressBar
+                        android:id="@+id/progressbar"
+                        style="@android:style/Widget.ProgressBar.Small.Inverse"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="0dp"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/couponMsg"
+                    style="@style/text_16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="4.0dip"
+                    android:textColor="@color/red"
+                    android:textSize="14sp"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2.0dip"
+                android:layout_weight="1"
+                android:background="@drawable/list_divider" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8.0dip" >
+
+            <TextView
+                style="@style/text_16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="4.0dip"
+                android:text="Delivery Time:"
+                android:textColor="@color/app_theme_color" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="0.0dip" >
+
+                <TextView
+                    android:id="@+id/time"
+                    style="@style/text_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="4.0dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/signup_edit_background"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textColorHighlight="@color/hint_color" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="0.0dip"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:id="@+id/zone"
+                        style="@style/text_16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/signup_edit_background"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:textColorHighlight="@color/hint_color" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/businessHour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4.0dip"
+                    android:textColor="@color/hint_color"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2.0dip"
+                android:layout_weight="1"
+                android:background="@drawable/list_divider" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8.0dip"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:padding="0.0dip" >
+
+                <Button
+                    android:id="@+id/back"
+                    style="@style/text_16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8.0dip"
+                    android:layout_marginRight="4.0dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/signup_button_background"
+                    android:paddingBottom="8.0dip"
+                    android:paddingLeft="25.0dip"
+                    android:paddingRight="25.0dip"
+                    android:paddingTop="8.0dip"
+                    android:shadowColor="@color/white"
+                    android:shadowDx=".4"
+                    android:shadowRadius=".3"
+                    android:text="Back"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/submit"
+                    style="@style/text_16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4.0dip"
+                    android:layout_marginRight="8.0dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/signup_button_background"
+                    android:paddingBottom="8.0dip"
+                    android:paddingLeft="25.0dip"
+                    android:paddingRight="25.0dip"
+                    android:paddingTop="8.0dip"
+                    android:shadowColor="@color/white"
+                    android:shadowDx=".4"
+                    android:shadowRadius=".3"
+                    android:text="@string/submit"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

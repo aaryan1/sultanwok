@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    
+     <dimen name="padding_8">8dp</dimen>
+    <dimen name="padding_4">4dp</dimen>
+     <dimen name="padding_10">10dp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="margin_4">4dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    
+    <dimen name="activity_horizontal_margin">10dp</dimen>
+    <dimen name="activity_vertical_margin">10dp</dimen>
+   <dimen name="category_width_grid">145dp</dimen>
+   <dimen name="category_height_grid">120dp</dimen>
+    <dimen name="category_margin_top">200dp</dimen>
+    <dimen name="header_marginTop">4dp</dimen>
+    <dimen name="header_marginBottom">4dp</dimen>
+    <dimen name="header_marginLeft">8dp</dimen>
+    <dimen name="header_marginRight">10dp</dimen>
+    <dimen name="header_title">18sp</dimen>
+    <dimen name="header_cartItems">12dp</dimen>
+    <dimen name="text_size">14dp</dimen>
+
+     <dimen name="marginTop">4dp</dimen>
+    <dimen name="marginBottom">4dp</dimen>
+    <dimen name="marginLeft">8dp</dimen>
+    <dimen name="marginRight">8dp</dimen>
+     <dimen name="drawer_width">240dp</dimen>
+     
+     <dimen name="carousel">175dp</dimen>
+</resources>

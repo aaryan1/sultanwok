@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg" >
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:contentInsetEnd="0dp"
+            app:contentInsetStart="0dp" >
+
+            <include layout="@layout/header" />
+        </android.support.v7.widget.Toolbar>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs"
+            style="@style/MyCustomTabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_scrollFlags="scroll|enterAlways" />
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:fitsSystemWindows="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/paymentImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/userDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/submit_email"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/view"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#099849"
+                    android:clickable="false"
+                    android:text="Login Or Signup"
+                    android:textColor="@android:color/white" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/firstName_text_input_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8.0dp"
+                     android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:padding="0dp"
+                    app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout" >
+
+                    <EditText
+                        android:id="@+id/firstName"
+                        style="@style/text_16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/signup_edit_background"
+                        android:focusableInTouchMode="true"
+                        android:hint="@string/firstName"
+                        android:imeOptions="flagNoExtractUi"
+                        android:maxLines="1"
+                        android:textColor="@color/black"
+                        android:textColorHighlight="@color/hint_color" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/phone_text_input_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8.0dp"
+                    android:padding="0dp"
+                     android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout" >
+
+                    <EditText
+                        android:id="@+id/phone"
+                        style="@style/text_16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/signup_edit_background"
+                        android:digits="+0123456789"
+                        android:hint="@string/phone"
+                        android:imeOptions="flagNoExtractUi"
+                        android:inputType="phone"
+                        android:maxLines="1"
+                        android:textColor="@color/black"
+                        android:textColorHighlight="@color/hint_color" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/email_text_input_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8.0dp"
+                    android:padding="0dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout" >
+
+                    <EditText
+                        android:id="@+id/email"
+                        style="@style/text_16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/signup_edit_background"
+                        android:hint="@string/email"
+                        android:imeOptions="flagNoExtractUi"
+                        android:inputType="textEmailAddress"
+                        android:maxLines="1"
+                        android:textColor="@color/black"
+                        android:textColorHighlight="@color/hint_color" />
+                </android.support.design.widget.TextInputLayout>
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/grey" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/lastName_text_input_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8.0dp"
+                    android:padding="0dp"
+                    android:visibility="gone"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout" >
+
+                    <EditText
+                        android:id="@+id/lastName"
+                        style="@style/text_16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/signup_edit_background"
+                        android:focusableInTouchMode="true"
+                        android:hint="@string/lastName"
+                        android:imeOptions="flagNoExtractUi"
+                        android:maxLines="1"
+                        android:textColor="@color/black"
+                        android:textColorHighlight="@color/hint_color" />
+                </android.support.design.widget.TextInputLayout>
+
+                <Spinner
+                    android:id="@+id/cardType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8.0dp"
+                    android:background="@drawable/signup_edit_background"
+                    android:maxLines="1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:prompt="@string/cardType"
+                    android:visibility="gone" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/cardNumber_text_input_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8.0dp"
+                    android:padding="0dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:visibility="gone"
+                    app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout" >
+
+                    <EditText
+                        android:id="@+id/cardNumber"
+                        style="@style/text_16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/signup_edit_background"
+                        android:digits="0123456789"
+                        android:hint="@string/card_number"
+                        android:imeOptions="flagNoExtractUi"
+                        android:inputType="numberSigned|textPassword"
+                        android:maxLines="1"
+                        android:textColor="@color/black"
+                        android:textColorHighlight="@color/hint_color" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/cardCvv_text_input_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8.0dp"
+                    android:padding="0dp"
+                    android:visibility="gone"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout" >
+
+                    <EditText
+                        android:id="@+id/cardCVV"
+                        style="@style/text_16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/signup_edit_background"
+                        android:digits="0123456789"
+                        android:hint="@string/card_cvvnumber"
+                        android:imeOptions="flagNoExtractUi"
+                        android:inputType="numberDecimal|textPassword"
+                        android:maxLength="3"
+                        android:maxLines="1"
+                        android:textColor="@color/black"
+                        android:textColorHighlight="@color/hint_color" />
+                </android.support.design.widget.TextInputLayout>
+
+                <TextView
+                    android:id="@+id/cardExp"
+                    style="@style/text_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8.0dp"
+                    android:background="@drawable/signup_edit_background"
+                    android:hint="@string/card_exp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColorHighlight="@color/hint_color"
+                    android:visibility="gone" />
+
+                
+                 
+         <Button
+            android:id="@+id/billing"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/zip"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#099849"
+            android:text="Billing Address"
+            
+            android:textColor="@android:color/white" />
+                
+                
+                <TextView
+                    android:id="@+id/billingAdddress"
+                    style="@style/text_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8.0dp"
+                    android:background="@drawable/signup_edit_background"
+                    android:hint="@string/billing_address"
+                    android:textColor="@color/black"
+                     android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColorHighlight="@color/hint_color" />
+
+                <TextView
+                    android:id="@+id/city"
+                    style="@style/text_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8.0dp"
+                    android:background="@drawable/signup_edit_background"
+                    android:hint="City"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHighlight="@color/hint_color" />
+                <TextView
+                    android:id="@+id/state"
+                    style="@style/text_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8.0dp"
+                    android:background="@drawable/signup_edit_background"
+                    android:hint="State"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHighlight="@color/hint_color" />
+                
+                <TextView
+                    android:id="@+id/zip"
+                    style="@style/text_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8.0dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/signup_edit_background"
+                    android:hint="Zipcode"
+                    android:textColor="@color/black"
+                    android:textColorHighlight="@color/hint_color" />
+                
+                <View
+                    android:id="@+id/view1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/grey" />
+                
+                 <Button
+            android:id="@+id/shipping"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/zip"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#099849"
+            android:text="Shipping Address"
+            
+            android:textColor="@android:color/white" />
+                
+                <TextView
+                    android:id="@+id/shippingAddress"
+                    style="@style/text_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8.0dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/signup_edit_background"
+                    android:hint="@string/shipping_address"
+                    android:textColor="@color/black"
+                    android:textColorHighlight="@color/hint_color" />
+                
+ <TextView
+                    android:id="@+id/shipping_city"
+                    style="@style/text_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8.0dp"
+                    android:background="@drawable/signup_edit_background"
+                    android:hint="City"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHighlight="@color/hint_color" />
+ <TextView
+                    android:id="@+id/shipping_state"
+                    style="@style/text_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8.0dp"
+                    android:background="@drawable/signup_edit_background"
+                    android:hint="State"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHighlight="@color/hint_color" />
+ 
+  <TextView
+                    android:id="@+id/shipping_zip"
+                    style="@style/text_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8.0dp"
+                    android:background="@drawable/signup_edit_background"
+                    android:hint="Zipcode"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHighlight="@color/hint_color" />
+                <Spinner
+                    android:id="@+id/delivery"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8.0dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/signup_edit_background"
+                    android:prompt="@string/delivery"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/orderType"
+                    style="@style/text_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8.0dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/signup_edit_background"
+                    android:hint="@string/orderTypeSpin"
+                    android:textColor="@color/black"
+                    android:textColorHighlight="@color/hint_color" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="0.0dip" >
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                         android:visibility="gone"
+                        android:layout_marginTop="8.0dp" >
+
+                        <TextView
+                            android:id="@+id/totalAmount"
+                            style="@style/text_16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:text="@string/total"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/Amount"
+                            style="@style/text_16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:text="$ 0.0"
+                            android:textColor="@color/black" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                         android:visibility="gone"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8.0dp" >
+
+                        <TextView
+                            android:id="@+id/salesTax"
+                            style="@style/text_16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:text="@string/sales_tax"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/salesAmount"
+                            style="@style/text_16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:text="$ 0.00"
+                            android:textColor="@color/black" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                         android:visibility="gone"
+                        android:layout_marginTop="8.0dp" >
+
+                        <TextView
+                            android:id="@+id/serviceTax"
+                            style="@style/text_16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:text="@string/service_tax"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/serviceAmount"
+                            style="@style/text_16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:text="$ 0.00"
+                            android:textColor="@color/black" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/shippingRow"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                         android:visibility="gone"
+                        android:layout_marginTop="8.0dp" >
+
+                        <TextView
+                            style="@style/text_16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:text="Delivery Charges"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/deliveryAmount"
+                            style="@style/text_16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:text="$ 0.0"
+                            android:textColor="@color/black" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/discountRow"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        android:layout_marginTop="8.0dp" >
+
+                        <TextView
+                            android:id="@+id/discount"
+                            style="@style/text_16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:text="@string/discount"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/discountAmount"
+                            style="@style/text_16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:text="$ 0.0"
+                            android:textColor="@color/black" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8.0dp" >
+
+                        <TextView
+                            android:id="@+id/grandTotal"
+                            style="@style/text_16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:layout_marginLeft="10dp"
+                            android:text="@string/grand_Total"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/grandAmount"
+                            style="@style/text_16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:layout_marginRight="10dp"
+                            android:text="$ 0.0"
+                            android:textColor="@color/black" />
+                    </TableRow>
+                </TableLayout>
+
+                <Button
+                    android:id="@+id/submitOrder"
+                    style="@style/text_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                  	android:gravity="end|center"
+                  	
+                    android:layout_marginTop="15.0dp"
+                    android:background="#099849"
+                    android:shadowColor="@color/white"
+                    android:shadowDx=".4"
+                    android:shadowRadius=".3"
+                    android:text="Payment Detail ->"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

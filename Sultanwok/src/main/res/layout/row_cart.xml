@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/slide"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/slide"
+        android:layout_gravity="center"
+        android:background="@color/red"
+        android:gravity="center"
+        android:paddingLeft="8.0dip"
+        android:paddingRight="8.0dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/delete"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/slide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal"
+        android:paddingBottom="4.0dip" >
+
+        <ImageView
+            android:id="@+id/deleteIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8.0dip"
+            android:layout_marginRight="0.0dip"
+            android:src="@drawable/ic_delete"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8.0dip"
+            android:layout_marginRight="8.0dip"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+           
+
+            
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="4.0dip"
+                android:layout_marginTop="4.0dip"
+                android:baselineAligned="false"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" >
+
+                    <TextView
+                        android:id="@+id/productName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_toLeftOf="@+id/quantity_x"
+                        android:singleLine="true"
+                        android:text="Demo Product"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_large"
+                        android:textStyle="bold" />
+<TextView
+                android:id="@+id/productDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0dip"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:layout_marginRight="10dp"
+                android:layout_alignLeft="@+id/productName"
+                android:layout_alignRight="@+id/quantity_x"
+                android:text="aaaa"
+                android:textColor="@color/app_theme_color"
+                android:textSize="15sp" />
+                    <ImageView
+                        android:id="@+id/minus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="4.0dip"
+                        android:visibility="gone"
+                        android:src="@drawable/ic_minus_background" />
+
+                      <TextView
+                        android:id="@+id/quantity_x"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="X"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_toLeftOf="@+id/quantity"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size" />
+                    
+                    <EditText
+                        android:id="@+id/quantity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                       android:layout_alignParentTop="true"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/cart_shape"
+                        android:text="2"
+                        android:editable="false"
+                      	 android:inputType="number"
+                        android:layout_alignParentRight="true"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size" />
+
+                    <ImageView
+                        android:id="@+id/plus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="4.0dip"
+                        android:visibility="gone"
+                        
+                        android:src="@drawable/ic_plus_background" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8.0dip"
+                    android:src="@drawable/ic_price_tag"
+                    android:text="$ 12.52"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

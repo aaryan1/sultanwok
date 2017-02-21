@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Sultan wok.iml" filepath="$PROJECT_DIR$/Sultan wok.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sultanwok/Sultanwok.iml" filepath="$PROJECT_DIR$/Sultanwok/Sultanwok.iml" />
+    </modules>
+  </component>
+</project>

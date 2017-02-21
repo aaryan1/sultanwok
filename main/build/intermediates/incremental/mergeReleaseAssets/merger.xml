@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/app2mobile/StudioProjects/GreenChicpea/main/src/main/assets"><file name="fontawesome-webfont.ttf" path="/Users/app2mobile/StudioProjects/GreenChicpea/main/src/main/assets/fontawesome-webfont.ttf"/></source><source path="/Users/app2mobile/StudioProjects/GreenChicpea/main/build/generated/assets/shaders/release"/></dataSet><dataSet config="release"><source path="/Users/app2mobile/StudioProjects/GreenChicpea/main/src/release/assets"/></dataSet></merger>

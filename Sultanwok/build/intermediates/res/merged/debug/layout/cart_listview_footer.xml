@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/putIns_text_input_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4.0dip"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginRight="8.0dip"
+        android:layout_marginTop="4.0dip"
+        app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout" >
+
+        <EditText
+            android:id="@+id/putIns"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/signup_edit_background"
+            android:hint="@string/put_our_instruction"
+            android:imeOptions="flagNoExtractUi"
+            android:maxLines="1"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/hint_color"
+            android:textSize="@dimen/text_size" />
+    </android.support.design.widget.TextInputLayout>
+
+</LinearLayout>

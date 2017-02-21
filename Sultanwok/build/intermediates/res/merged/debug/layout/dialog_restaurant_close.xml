@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/transparent"
+    android:gravity="center" >
+
+    <RelativeLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:background="@drawable/search_shape"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50.0dip"
+            android:gravity="center"
+            android:text=""
+            android:textAllCaps="true"
+              android:textSize="@dimen/text_large"
+            android:textColor="@color/black" >
+        </TextView>
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_below="@+id/message"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30.0dip"
+            android:layout_marginRight="30.0dip"
+            android:layout_marginTop="15.0dip"
+            android:background="#f6d614"
+            
+            android:text="OK"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_large" />
+
+        <Button
+            android:id="@+id/continu"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_below="@+id/cancel"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30.0dip"
+            android:layout_marginRight="30.0dip"
+            android:layout_marginTop="15.0dip"
+            android:background="@color/app_theme_color"
+            android:text="CONTINUE"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_large" />
+        <Space 
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_below="@+id/continu"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/info" />
+
+</RelativeLayout>

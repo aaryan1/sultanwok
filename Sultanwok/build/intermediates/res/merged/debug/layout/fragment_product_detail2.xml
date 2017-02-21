@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center_vertical" >
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:contentInsetEnd="0dp"
+            app:contentInsetStart="0dp" >
+
+            <include layout="@layout/header" />
+        </android.support.v7.widget.Toolbar>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs"
+            style="@style/MyCustomTabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_scrollFlags="scroll|enterAlways"
+            android:visibility="gone" />
+    </android.support.design.widget.AppBarLayout>
+   
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/categoryImg"
+        android:layout_below="@+id/appbarLayout"
+        android:src="@drawable/place_holder"/>
+     <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignTop="@+id/categoryImg"
+            android:layout_marginTop="19dp"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_large"
+            android:text="dsds" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/categoryImg"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" >
+
+        <ScrollView
+            android:id="@+id/dressing"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="4.0dip"
+            android:layout_above="@+id/view"
+            android:background="#f6f1f1" >
+
+            <LinearLayout
+                android:id="@+id/container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+            </LinearLayout>
+        </ScrollView>
+
+        <ListView
+            android:id="@+id/itemsList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/order_instruction"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/dressing"
+            android:background="@color/white"
+            android:divider="@null"
+             android:elevation="10dp"
+            android:outlineProvider="bounds"
+            android:scrollbars="none" />
+        <View
+            android:id="@+id/view"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/itemsList"
+            android:elevation="10dp"
+            android:outlineProvider="bounds"
+            android:background="@color/grey"/>
+        <RelativeLayout
+            android:id="@+id/order_instruction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/addToCart"
+            android:layout_marginTop="1.0dip"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:paddingBottom="15.0dip"
+            android:paddingTop="15.0dip"
+            android:textSize="@dimen/text_size" >
+
+            <EditText
+                android:id="@+id/instruction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/square"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/signup_edit_background"
+                android:hint="Product Instruction"
+                android:paddingLeft="5dp"
+                android:text=""
+                android:layout_alignBottom="@+id/square"
+                android:layout_alignTop="@+id/square"
+                android:maxLines="1" >
+            </EditText>
+            <RelativeLayout
+                android:id="@+id/square"
+                android:layout_width="115dp"
+                android:layout_alignParentRight="true"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/signup_edit_background"
+                android:layout_marginTop="10dp" >
+
+                <Button
+                    android:id="@+id/minus"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:text="-"
+                    android:textColor="@android:color/white"
+                    android:layout_toLeftOf="@+id/quantity"
+                    android:background="@drawable/round_button" />
+
+                <Button
+                    android:id="@+id/plus"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:text="+"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/round_button" />
+
+                <TextView
+                    android:id="@+id/quantity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:layout_toLeftOf="@+id/plus"
+                    android:text="1" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/addToCart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="9.0dip"
+            android:background="@color/app_theme_color"
+            android:gravity="center"
+            android:paddingBottom="15.0dip"
+            android:paddingTop="15.0dip"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size" >
+
+            <TextView
+                android:id="@+id/add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:text="ADD TO CART"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size" />
+
+            <TextView
+                android:id="@+id/total_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignRight="@+id/right_sign"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:text=""
+
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size" />
+
+            <ImageView
+                android:id="@+id/right_sign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/right"
+                android:visibility="invisible"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/require"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/categoryImg"
+        android:background="@android:color/holo_red_dark"
+        android:visibility="invisible"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/req"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+
+            android:text="aa"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_large" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

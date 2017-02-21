@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" >
+
+    <ImageView
+        android:id="@+id/menuImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_centerVertical="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+         android:layout_alignRight="@+id/circle"
+        android:layout_marginRight="3dp"
+        android:src="@drawable/shopping2" />
+<TextView
+        android:id="@+id/circle"
+       android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+		android:background="@drawable/circle_header"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/header_marginRight"
+
+     />
+    <ImageView
+        android:id="@+id/cartImage"
+        android:layout_width="wrap_content"
+        android:scaleType="fitXY"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="@dimen/header_marginRight"
+        android:layout_marginTop="8dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/setting" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/fav"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/cartImage"
+        android:gravity="center"
+       	android:layout_centerInParent="true"
+        android:singleLine="true"
+        android:text="The Salad House"
+        android:textColor="#666666"
+        android:textSize="@dimen/header_title" />
+
+    <TextView
+        android:id="@+id/cartItems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_marginTop="2dp"
+         android:layout_marginRight="-8dp"
+        android:layout_toLeftOf="@+id/menuImage"
+        android:background="@drawable/cart_item_background"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLength="3"
+        android:text="0"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/header_cartItems"  />
+
+    
+<ImageView
+                android:id="@+id/fav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="2dp"
+                android:layout_toLeftOf="@+id/cartItems"
+                android:src="@drawable/ic_fav" 
+                android:visibility="invisible"
+                />
+    
+
+</RelativeLayout>

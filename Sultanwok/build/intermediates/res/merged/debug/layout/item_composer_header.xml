@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10.0dip"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="10.0dip"
+    android:text="header"
+    android:lineSpacingExtra="20dp"
+    android:textColor="#000"
+    android:textSize="@dimen/header_title"
+    android:textStyle="bold" />

@@ -1,0 +1,45 @@
+-keep class com.app2mobile.Sultanwok.Global {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+-keep class com.app2mobile.Sultanwok.MainActivity { <init>(); }
+-keep class com.app2mobile.Sultanwok.CategoryActivity { <init>(); }
+-keep class com.app2mobile.Sultanwok.LocationActivity { <init>(); }
+-keep class com.app2mobile.Sultanwok.ProductActivity { <init>(); }
+-keep class com.app2mobile.Sultanwok.LoginSignupActivity { <init>(); }
+-keep class com.app2mobile.Sultanwok.Payment_InformationActivity { <init>(); }
+-keep class com.app2mobile.Sultanwok.DeliveryActivity { <init>(); }
+-keep class com.app2mobile.Sultanwok.DetailActivity { <init>(); }
+-keep class com.app2mobile.Sultanwok.ForgotPasswordActivity { <init>(); }
+-keep class com.app2mobile.Sultanwok.VarifyUserActivity { <init>(); }
+-keep class com.app2mobile.Sultanwok.ChangePasswordActivity { <init>(); }
+-keep class com.app2mobile.Sultanwok.ProductDetailActivity { <init>(); }
+-keep class com.app2mobile.Sultanwok.ProductDetailAttributeActivity { <init>(); }
+-keep class com.app2mobile.Sultanwok.FavoritesActivity { <init>(); }
+-keep class com.app2mobile.Sultanwok.CheckOutProductListActivity { <init>(); }
+-keep class com.app2mobile.Sultanwok.PaymentActivity { <init>(); }
+-keep class com.app2mobile.Sultanwok.UserProfileActivity { <init>(); }
+-keep class com.app2mobile.Sultanwok.OrderHistoryActivity { <init>(); }
+-keep class com.app2mobile.Sultanwok.PaymentDetailPart1Activity { <init>(); }
+-keep class com.app2mobile.Sultanwok.NotificationMessageActivity { <init>(); }
+-keep class com.app2mobile.Sultanwok.First_page { <init>(); }
+-keep class com.app2mobile.Sultanwok.Manual_Location { <init>(); }
+-keep class com.app2mobile.Sultanwok.SingupActivity { <init>(); }
+-keep class com.app2mobile.Sultanwok.Reoder_Activity { <init>(); }
+-keep class com.app2mobile.Sultanwok.Checkout_Webview { <init>(); }
+-keep class com.app2mobile.Sultanwok.fragment.Second_Webview { <init>(); }
+-keep class com.app2mobile.Sultanwok.Credit_Card_Detail { <init>(); }
+-keep class com.app2mobile.Sultanwok.PickupnDeliveryDialog { <init>(); }
+-keep class com.app2mobile.Sultanwok.Show_Credit_Card_Actvity { <init>(); }
+-keep class com.app2mobile.Sultanwok.Billing_Address_Dialog { <init>(); }
+-keep class com.app2mobile.Sultanwok.Pickup_Address_dialog { <init>(); }
+-keep class com.app2mobile.Sultanwok.Exception_Show { <init>(); }
+-keep class com.app2mobile.utiles.Loading_Dialog { <init>(); }
+-keep class com.app2mobile.gcm.GcmBroadcastReceiver { <init>(); }
+-keep class com.app2mobile.gcm.GCMNotificationIntentService { <init>(); }
+-keep class com.app2mobile.geofence.GeofenceTransitionsIntentService { <init>(); }
+-keep class com.app2mobile.location.AlaramBroadcastReceiver { <init>(); }
+-keep class com.app2mobile.location.BootupCompleteBroadcastReceiver { <init>(); }
+-keep class com.google.android.gms.ads.AdActivity { <init>(); }
+-keep class com.google.android.gms.ads.purchase.InAppPurchaseActivity { <init>(); }
+-keep class com.google.android.gms.wallet.EnableWalletOptimizationReceiver { <init>(); }

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sultanwok</string>
+   
+    <string name="store_pass">app2mobile</string>
+    <string name="profile">My Profile</string>
+    <string name="my_favourites">Favourites</string>
+    <string name="location">Location</string>
+    <string name="order_history">Order History</string>
+    <string name="change_password">Change Password</string>
+    <string name="sign_In">Sign In</string>
+    <string name="sign_Out">Sign Out</string>
+    <string name="debug_googleMapkey">AIzaSyC9jP2UTdZAnXK5KYaXJAarhy2raEY1qZI</string>
+    <string name="release_key1">AIzaSyC9jP2UTdZAnXK5KYaXJAarhy2raEY1qZI</string>
+    <string name="release_key">AIzaSyC9jP2UTdZAnXK5KYaXJAarhy2raEY1qZI</string>
+    <string name="facebook_app_id">1618569495125923</string>
+    <string name="title_facebook_login">Facebook</string>
+    <string name="userName">User name</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="or">Or</string>
+    <string name="checkOutAsGuest">Checkout As Guest</string>
+    <string name="registerNewUser">Register new User</string>
+    <string name="register">CREATE ACCOUNT</string>
+    <string name="joinFB">Join with Facebook</string>
+    <string name="firstName">First name</string>
+    <string name="lastName">Last name</string>
+    <string name="email">Email</string>
+    <string name="special_instruction">Write special instruction to follow for this food</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="firstname_required">Please enter first name.</string>
+    <string name="lastname_required">Please enter last name.</string>
+    <string name="email_required">Please enter email.</string>
+    <string name="password_required">Please enter password.</string>
+    <string name="confirmPassword_name_required">Please enter confirm password.</string>
+    <string name="emailFormat_required">Please enter valid email Id.</string>
+    <string name="password_confirm_match1">Password &amp; confirm password not match.</string>
+    <string name="addTocart">Add To Cart</string>
+    <string name="put_our_instruction">Enter any special instructions</string>
+    <string name="amount">Amount:</string>
+    <string name="quantity">Quantity:</string>
+    <string name="profile_name">Name :</string>
+    <string name="profile_phone">Phone :</string>
+    <string name="phone">Phone</string>
+    <string name="profile_address">Address</string>
+    <string name="favourites">Favourites</string>
+    <string name="check_out">Check Out</string>
+    <string name="total">Total</string>
+    <string name="checkout">PROCEED TO CHECKOUT</string>
+    <string name="delete">Delete</string>
+    <string name="submitOrder">Submit Order</string>
+    <string name="cardType">Card Type</string>
+    <string name="card_number">Card Number</string>
+    <string name="card_exp">MM/YYYY</string>
+    <string name="billing_address">Billing Address</string>
+    <string name="shipping_address">Shipping Address</string>
+    <string name="delivery">Delivery</string>
+    <string name="paymentDetail">Payment Detail</string>
+    <string name="already_fav">Product is already in favorite List.</string>
+    <string name="usd">$ </string>
+    <string name="select_one">Select One item</string>
+    <string name="select_5">Select 5 item</string>
+    <string name="select_multiple">Select Multiple</string>
+    <string name="select">select</string>
+    <string name="multiselect">multiselect</string>
+    <string name="order_id">Order Id</string>
+    <string name="status">Status</string>
+
+    <string-array name="cardType">
+        <item>American Express</item>
+        <item>Discover</item>
+        <item>MasterCard</item>
+        <item>Visa</item>
+    </string-array>
+ <string name="alert_dialog_title">Please Select</string>
+    <string name="positive_button_text">Select</string>
+    <string name="negative_button_text">Cancel</string>
+    
+    <string name="street">Street</string>
+    <string name="city">City</string>
+    <string name="states">States</string>
+    <string name="zip_code">Zip Code</string>
+    <string name="same_shipping">Shipping Address same as Billing</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="save">Save</string>
+    <string name="please_street">Please enter street.</string>
+    <string name="please_city">Please enter city.</string>
+    <string name="please_state">Please enter state.</string>
+    <string name="please_zipcode">Please enter zipCode.</string>
+    <string name="phone_required">please enter phone no.</string>
+    <string name="cardType_required">Please select a card Type.</string>
+    <string name="cardNumber_required">Please enter card number.</string>
+    <string name="cardCVV_required">Please enter cvv number.</string>
+    <string name="cardExp_required">Please select card expiry date.</string>
+    <string name="billing_required">Please enter billing address.</string>
+    <string name="shipping_required">Please enter shipping address.</string>
+    <string name="shippingTYpe_required">Please enter shipping type.</string>
+    <string name="location_title">Demo Restaurant</string>
+    <string name="location_desc">Village Green Shopping Center, 415 NJ-18, East Brunswick, NJ 08816, United States</string>
+    <string name="forgot_password">"&lt;u>Forgot Password?&lt;/u></string>
+    <string name="submit">Submit</string>
+    <string name="enter_your_email">Enter your email address.</string>
+    <string name="discount">Discount</string>
+    <string name="grand_Total">Grand Total</string>
+    <string name="ship_street">Green Shopping Center</string>
+    <string name="ship_city">Millburn</string>
+    <string name="ship_state">New Jersey</string>
+    <string name="ship_zipcode">08816</string>
+    <string name="zipcode_required">Please enter zipcode.</string>
+    <string name="delivery_required">Please enter delivery time.</string>
+    <string name="delivery_time_required">Select delivery time in business hours.</string>
+    <string name="orderTypeSpin">Order Type</string>
+    <string name="restaurant_closed">Please select a valid time.</string>
+    <string name="order_successfully">Order place successfully.</string>
+    
+    <string name="enter_varification_code">Enter verification code.</string>
+    <string name="changePassword">Change Password</string>
+    <string name="new_password">New Password</string>
+    <string name="new_confirm_password">New Confirm Password</string>
+    <string name="enter_previous">Please enter previous password.</string>
+    <string name="enter_new">Please enter new password.</string>
+    <string name="enter_new_confirm">Please enter new confirm password.</string>
+    <string name="sales_tax">Sales Tax</string>
+    <string name="service_tax">Service Tax</string>
+    <string name="card_cvvnumber">CVV</string>
+    <string name="card_validrequired">Please enter valid card number.</string>
+    <string name="deliver_terms">I agree that I must be home during the selected delivery time frame and understand that I am responsible for calling Green Chicpea atleast 2 hours before selected delivery window if unforeseen circumstances prevent this. If I am not home I understand monalisa will leave my purchase by my door. If the package goes without refrigeration I understand that contents will spoil.
+Pls call Green Chicpea if you need any further clarification. 732-238-2352 </string>
+    <string name="locality">Locality</string>
+    <string name="select_locality">Please select locality.</string>
+    <string name="ship_phone">7322382352</string>
+    <string name="ship_stateCode">NJ</string>
+    <string name="ship_CityCode">889257</string>
+    <string name="select_locality_blling">Please select billing locality.</string>
+    <string name="select_locality_shipping">Please select shipping City.</string>
+    <!-- Latitude, longitude format -->
+    <string name="latitude_longitude">%1$.8f, %2$.8f</string>
+	<string name="promt">select time</string>
+    <!-- Geofence -->
+    <!-- Error strings -->
+    <string name="not_connected">GoogleApiClient no yet connected. Try again.</string>
+    <string name="geofence_not_available">Geofence service is not available now</string>
+    <string name="geofence_too_many_geofences">Your app has registered too many geofences</string>
+    <string name="geofence_too_many_pending_intents">        You have provided too many PendingIntents to the addGeofences() call</string>
+    <string name="unknown_geofence_error">        Unknown error: the Geofence service is not available now</string>
+    <string name="geofence_transition_invalid_type">        Geofence transition error: invalid transition type %1$d</string>
+
+    <!-- Transition type strings -->
+    <string name="geofence_transition_entered">Entered</string>
+    <string name="geofence_transition_exited">Exited</string>
+    <string name="unknown_geofence_transition">Unknown Transition</string>
+    <string name="geofence_transition_notification_text">Click notification to return to app</string>
+    <string name="geofence_transition_notification_text_enter">Demo Restaurant restaurant is near.</string>
+    <string name="geofence_transition_notification_text_exit">You are going far away from Demo Restaurant Restaurant.</string>
+
+<!--  -->
+<string name="phone_number_sim">Please insert Sim.</string>
+<string name="underline"><u>Terms &amp; Conditions</u></string>
+<string name="policy"><u> Privacy Policy</u></string>
+<string name="policy_text">and the you have read our </string>
+    <string name="term"><u> Terms of use</u></string>
+<string name="signup"><u>Sign Up</u></string>
+	<string name="scheme">Sultanwok</string>
+	<string name="scheme1">Sulta</string>
+	<string name="fav_product">FAVORITES PRODUCTS</string>
+		<string name="fav_order">FAVORITES ORDERS</string>
+	<string name="profile_detail">USER DETAILS</string>
+	<string name="profile_card">SAVED CARD</string>
+	<string name="profile_addres">USER ADDRESS</string>
+</resources>

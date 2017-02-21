@@ -1,0 +1,450 @@
+[
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_setting_light.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.0.0\\res\\drawable-xhdpi-v4\\ic_setting_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\process_step2.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\drawable-xhdpi\\process_step2.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_delete.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\drawable-xhdpi\\ic_delete.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_pause_light.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.0.0\\res\\drawable-xhdpi-v4\\ic_pause_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\fav.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\drawable-xhdpi\\fav.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_cast_on_0_light.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.0.0\\res\\drawable-xhdpi-v4\\ic_cast_on_0_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\home.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\drawable-xhdpi\\home.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\loading3.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\drawable-xhdpi\\loading3.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_setting_dark.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.0.0\\res\\drawable-xhdpi-v4\\ic_setting_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_media_route_off_mono_dark.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.0.0\\res\\drawable-xhdpi-v4\\ic_media_route_off_mono_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_media_route_on_0_mono_dark.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.0.0\\res\\drawable-xhdpi-v4\\ic_media_route_on_0_mono_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_media_route_on_mono_dark.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.0.0\\res\\drawable-xhdpi-v4\\ic_media_route_on_mono_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_full_open_on_phone.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.5.0\\res\\drawable-xhdpi\\common_full_open_on_phone.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_plusone_tall_off_client.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.5.0\\res\\drawable-xhdpi\\ic_plusone_tall_off_client.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\facebook.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\drawable-xhdpi\\facebook.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\history.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\drawable-xhdpi\\history.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\setting.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\drawable-xhdpi\\setting.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_pause_dark.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.0.0\\res\\drawable-xhdpi-v4\\ic_pause_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_plusone_medium_off_client.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.5.0\\res\\drawable-xhdpi\\ic_plusone_medium_off_client.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\loading2.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\drawable-xhdpi\\loading2.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rewards.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\drawable-xhdpi\\rewards.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\edit.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\drawable-xhdpi\\edit.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\loading5.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\drawable-xhdpi\\loading5.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_media_pause.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.0.0\\res\\drawable-xhdpi-v4\\ic_media_pause.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\back.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\drawable-xhdpi\\back.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\profile.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\drawable-xhdpi\\profile.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\select_check.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\drawable-xhdpi\\select_check.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\loading4.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\drawable-xhdpi\\loading4.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\loading1.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\drawable-xhdpi\\loading1.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\right.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\drawable-xhdpi\\right.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_cast_light.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.0.0\\res\\drawable-xhdpi-v4\\ic_cast_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_plusone_standard_off_client.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.5.0\\res\\drawable-xhdpi\\ic_plusone_standard_off_client.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\shopping2.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\drawable-xhdpi\\shopping2.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_plusone_small_off_client.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.5.0\\res\\drawable-xhdpi\\ic_plusone_small_off_client.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\cast_ic_notification_0.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\7.5.0\\res\\drawable-xhdpi\\cast_ic_notification_0.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\money_hov.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\drawable-xhdpi\\money_hov.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\loc.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\drawable-xhdpi\\loc.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_category_background.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\drawable-xhdpi\\ic_category_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\powered_by_google_light.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\7.5.0\\res\\drawable-xhdpi\\powered_by_google_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_play_light.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.0.0\\res\\drawable-xhdpi-v4\\ic_play_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_media_route_disabled_mono_dark.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.0.0\\res\\drawable-xhdpi-v4\\ic_media_route_disabled_mono_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\cast_ic_notification_2.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\7.5.0\\res\\drawable-xhdpi\\cast_ic_notification_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\shopping1.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\drawable-xhdpi\\shopping1.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\cast_ic_notification_1.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\7.5.0\\res\\drawable-xhdpi\\cast_ic_notification_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bar.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\drawable-xhdpi\\bar.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\place_holder.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\drawable-xhdpi\\place_holder.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_cast_on_2_light.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.0.0\\res\\drawable-xhdpi-v4\\ic_cast_on_2_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_cast_dark.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.0.0\\res\\drawable-xhdpi-v4\\ic_cast_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_media_route_on_1_mono_dark.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.0.0\\res\\drawable-xhdpi-v4\\ic_media_route_on_1_mono_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_cast_off_light.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.0.0\\res\\drawable-xhdpi-v4\\ic_cast_off_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_play_dark.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.0.0\\res\\drawable-xhdpi-v4\\ic_play_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_media_route_on_2_mono_dark.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.0.0\\res\\drawable-xhdpi-v4\\ic_media_route_on_2_mono_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_cast_disabled_light.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.0.0\\res\\drawable-xhdpi-v4\\ic_cast_disabled_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_cast_on_1_light.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.0.0\\res\\drawable-xhdpi-v4\\ic_cast_on_1_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\mr_ic_audio_vol.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.0.0\\res\\drawable-xhdpi-v4\\mr_ic_audio_vol.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\cast_ic_notification_on.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\7.5.0\\res\\drawable-xhdpi\\cast_ic_notification_on.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_clear_mtrl_alpha.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_media_play.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.0.0\\res\\drawable-xhdpi-v4\\ic_media_play.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_cast_on_light.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.0.0\\res\\drawable-xhdpi-v4\\ic_cast_on_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\discount.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\drawable-xhdpi\\discount.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\login.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\drawable-xhdpi\\login.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\loading6.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\drawable-xhdpi\\loading6.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\shopping.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\drawable-xhdpi\\shopping.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\login_active.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\drawable-xhdpi\\login_active.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\unselect.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\src\\main\\res\\drawable-xhdpi\\unselect.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\powered_by_google_dark.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\7.5.0\\res\\drawable-xhdpi\\powered_by_google_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Mukesh\\Desktop\\Takendra\\Sultan wok\\Sultanwok\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    }
+]

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="0dp" >
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appbarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true" >
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:contentInsetEnd="0dp"
+                app:contentInsetStart="0dp" >
+
+                <include layout="@layout/header" />
+            </android.support.v7.widget.Toolbar>
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabs"
+                style="@style/MyCustomTabLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_scrollFlags="scroll|enterAlways"
+                android:visibility="gone" />
+        </android.support.design.widget.AppBarLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/appbarLayout"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/white"
+            android:orientation="vertical" >
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/confirmPassword_text_input_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8.0dp"
+                android:padding="0dp"
+                app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout" >
+
+                <EditText
+                    android:id="@+id/firstName"
+                    style="@style/text_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:hint="@string/firstName"
+                    android:imeOptions="flagNoExtractUi"
+                    android:maxLines="1"
+                    android:textColor="@color/black"
+                    android:textColorHighlight="@color/hint_color" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/confirmPassword_text_input_layout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8.0dp"
+                android:padding="0dp"
+                app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout" >
+
+                <EditText
+                    android:id="@+id/lastName"
+                    style="@style/text_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:hint="@string/lastName"
+                    android:imeOptions="flagNoExtractUi"
+                    android:textColor="@color/black"
+                    android:textColorHighlight="@color/hint_color" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/confirmPassword_text_input_layout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8.0dp"
+                android:padding="0dp"
+                app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout" >
+
+                <EditText
+                    android:id="@+id/email"
+                    style="@style/text_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:hint="@string/email"
+                    android:imeOptions="flagNoExtractUi"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:textColor="@color/black"
+                    android:textColorHighlight="@color/hint_color" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/confirmPassword_text_input_layout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8.0dp"
+                android:padding="0dp"
+                app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout" >
+
+                <EditText
+                    android:id="@+id/phone"
+                    style="@style/text_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:digits="+0123456789"
+                    android:hint="@string/phone"
+                    android:imeOptions="flagNoExtractUi"
+                    android:inputType="text|phone"
+                    android:maxLines="1"
+                    android:textColor="@color/black"
+                    android:textColorHighlight="@color/hint_color" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/confirmPassword_text_input_layout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8.0dp"
+                android:padding="0dp"
+                app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout" >
+
+                <EditText
+                    android:id="@+id/password"
+                    style="@style/text_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:hint="@string/password"
+                    android:imeOptions="flagNoExtractUi"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:textColor="@color/black"
+                    android:textColorHighlight="@color/hint_color" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/confirmPassword_text_input_layout5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8.0dp"
+                android:padding="0dp"
+                app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout" >
+
+                <EditText
+                    android:id="@+id/confirmPassword"
+                    style="@style/text_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:hint="@string/confirm_password"
+                    android:imeOptions="flagNoExtractUi"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:textColor="@color/black"
+                    android:textColorHighlight="@color/hint_color" />
+            </android.support.design.widget.TextInputLayout>
+
+            <RelativeLayout
+                android:id="@+id/signUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#099849" >
+
+                <TextView
+                    android:id="@+id/checkOut"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:padding="20.0dip"
+                    android:text="CREATE ACCOUNT"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size" />
+
+                <ImageView
+                    android:id="@+id/arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/right" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp" >
+
+                <TextView
+                    android:id="@+id/signup_text"
+                    android:textSize="@dimen/text_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10.0dp"
+                    android:gravity="center"
+                    android:text="By Sign up you agree to our "
+                    android:textColor="#676767" />
+
+                <TextView
+                    android:id="@+id/signup_text_next"
+                    android:textSize="@dimen/text_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10.0dp"
+                    android:layout_toRightOf="@+id/signup_text"
+                    android:singleLine="true"
+                    android:text="@string/underline"
+                    android:textColor="#676767" />
+
+                <TextView
+                    android:id="@+id/privacy_policy"
+                    android:textSize="@dimen/text_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/signup_text"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10.0dp"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/policy_text"
+                    android:textColor="#676767" />
+
+                <TextView
+                    android:id="@+id/privacy_policy_next"
+                    android:textSize="@dimen/text_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/privacy_policy"
+                    android:layout_marginTop="10.0dp"
+                    android:layout_toRightOf="@+id/privacy_policy"
+                    android:clickable="true"
+                    android:singleLine="true"
+                    android:text="@string/policy"
+                    android:textColor="#676767" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

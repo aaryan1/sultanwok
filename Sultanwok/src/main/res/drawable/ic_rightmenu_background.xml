@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_focused="true" android:state_pressed="false">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <gradient android:angle="-90" android:endColor="@color/right_menu" android:startColor="@color/right_menu" />
+
+            <padding android:bottom="8.0dp" android:left="8.0dp" android:right="8.0dp" android:top="8.0dp" />
+        </shape></item>
+    <item android:drawable="@drawable/ic_button_normal" android:state_focused="true" android:state_pressed="true"/>
+    <item android:drawable="@drawable/ic_button_normal" android:state_focused="false" android:state_pressed="true"/>
+    <item ><shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <gradient android:angle="-90" android:endColor="@color/right_menu" android:startColor="@color/right_menu" />
+
+            <padding android:bottom="8.0dp" android:left="8.0dp" android:right="8.0dp" android:top="8.0dp" />
+        </shape></item>
+
+</selector>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="ga_sessionTimeout">300</integer>
+
+    <bool name="ga_autoActivityTracking">false</bool>
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+
+   <!--    <screenName name="Sultanwokk.fragment.Manual_Location_Fragment">Location Page</screenName>
+    <screenName name="Sultanwokk.fragment.CategoryFragment">Category Page</screenName>
+    <screenName name="Sultanwokk.fragment.ReorderFragment">Reoder Page</screenName>
+    <screenName name="Sultanwokk.fragment.PaymentInformationFragment">Checkout Page</screenName>
+    <screenName name="Sultanwokk.fragment.CheckOutProductListFragment">Cart Page</screenName>
+    <screenName name="Sultanwokk.fragment.SubCategoryNProductsFragment">Subcategory Page</screenName>
+    <screenName name="Sultanwokk.fragment.LoginFragment">Login Page</screenName>
+    <screenName name="Sultanwokk.fragment.SignupFragment">Signup Page</screenName>
+<screenName name="Sultanwokk.fragment.ProductDetailFragment">Product Page</screenName>
+<screenName name="Sultanwokk.fragment.ProductAttributesDetailFragment">Product Bundle Page</screenName>
+ -->
+
+    <string name="ga_trackingId">UA-83148524-2</string>
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="radio_button_selected_color">#ff33b5e5</color>
+    <color name="radio_button_unselected_color">#e0e0e0</color>
+    <declare-styleable name="AwesomeRadioButton"><attr format="string" name="awesome_text"/></declare-styleable>
+    <declare-styleable name="SegmentedGroup"><attr format="dimension" name="sc_corner_radius"/><attr format="dimension" name="sc_border_width"/><attr format="color" name="sc_tint_color"/><attr format="color" name="sc_checked_text_color"/><attr format="color" name="sc_unchecked_tint_color"/></declare-styleable>
+    <dimen name="radio_button_conner_radius">5dp</dimen>
+    <dimen name="radio_button_stroke_border">1dp</dimen>
+    <string name="app_name">Android Segmented</string>
+    <style name="RadioButton">
+        <item name="android:textColor">@drawable/button_text_color</item>
+        <item name="android:minHeight">33dp</item>
+        <item name="android:minWidth">70dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+</resources>
